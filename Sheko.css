@@ -197,7 +197,11 @@ header .nav-items .nav-item {
         transform: rotateZ(90deg);
     }
     .nouval{
+<<<<<<< HEAD
         transform: translateY(-220px);
+=======
+        transform: translateY(-210px);
+>>>>>>> main
     }
 }
 
