@@ -139,7 +139,7 @@ header .nav-items .nav-item {
     margin: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 760px) {
     main {
         width: 100%;
         text-align: center;
@@ -189,12 +189,15 @@ header .nav-items .nav-item {
 
     header .active {
         opacity: 1;
-        top: 28vh;
+        top: 20.65vh;
     }
 
 
     header .moc {
         transform: rotateZ(90deg);
+    }
+    .nouval{
+        transform: translateY(-210px);
     }
 }
 
@@ -202,9 +205,11 @@ header .nav-items .nav-item {
     main {
         max-width: 360px;
     }
-
-
     html {
         font-size: 70%;
+    }
+    header .active {
+        opacity: 1;
+        top: 14.35vh;
     }
 }
